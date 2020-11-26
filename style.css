@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+}
+.highlight{
+    display:inline-block;
+    background-color: #FFC683;
+}
+body{
+    max-width:1200px;
+    margin:auto;
+}
+.introduction{
+    height:60vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size:3rem;
+}
+h2{
+    font-size:2rem;
+    font-weight:400;}
+p{
+    font-size:1.5rem;
+}
+h5{
+    font-size:1.5rem;
+}
+.nav-link{
+    font-size:2rem;
+    font-weight:400;
+}
+.card{
+    margin:auto;
+}
+.active{
+    background-color:#FFC683;
+}
+.work h2{
+    margin-bottom:4rem;
+}
+.skills{
+    margin-top:10rem;
+    margin-bottom:20vh;
+}
+#skills-wrapper{
+    margin-top:2rem;
+}
+#skills-wrapper p{
+    font-size:2rem;
+}
+.btn{
+    font-size:1.5rem;
+    background-color:#FFC683 ;
+}
+.contact a{
+    color:rgb(204, 91, 50);
+    text-decoration:underline;
+}
+.contact a:hover{
+    color:#FFC683;
+}
+.about{
+    height:90vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about h2{
+    font-size:2.3rem;
+}
+.card-title, .card-text,.btn{
+    font-size:2rem;
+}
+
+.subpage{
+    margin:auto;
+}
+.img-fluid{
+    margin-bottom:1.5rem;
+}
+
+
+
+
+
+@media only screen and (max-width: 760px) {
+    .reversed{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .btn{
+        float:right
+    }
+    html{
+        font-size:12px;
+    }
+  }
+
+
+
+
