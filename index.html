@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-light sticky-top bg-white">
@@ -36,7 +37,7 @@
         <h1 class='text-center'><div class='highlight'>Work</div> I've done</h1>
         <h2 class='text-center'>competitions and personal projects</h2>
 
-        <div class="card mb-4" style="max-width: 800px;">
+        <div class="card mb-4" style="max-width: 800px;" data-aos="fade-left">
           <div class="row no-gutters">
             <div class="col-md-6">
               <img src="images/frame.png" class="card-img" alt="...">
@@ -51,7 +52,7 @@
           </div>
         </div>
 
-        <div class="card mb-4" style="max-width: 800px;">
+        <div class="card mb-4" style="max-width: 800px;" data-aos="fade-right">
           <div class="row no-gutters reversed">
             <div class="col-md-6 d-flex align-items-center">
               <div class="card-body text-md-right">
@@ -66,7 +67,7 @@
           </div>
         </div>
 
-        <div class="card mb-4" style="max-width: 800px;">
+        <div class="card mb-4" style="max-width: 800px;" data-aos="fade-left">
           <div class="row no-gutters">
             <div class="col-md-6">
               <img src="images/on tabletop.png" class="card-img" alt="...">
@@ -81,7 +82,7 @@
           </div>
         </div>
     </section>
-    <section class='skills text-center'>
+    <section class='skills text-center' data-aos="fade">
         <h1><div class='highlight'>Skills</div> I've learnt</h1>
         <div id="skills-wrapper">
           <p>3D Modelling (Fusion360)</p>
@@ -95,5 +96,12 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset:300,
+      duration:800
+    });
+  </script>
   </body>
 </html>
