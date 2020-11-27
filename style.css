@@ -25,9 +25,7 @@ h2{
 h3{
     font-weight:400;
 }
-p{
-    font-size:1.2rem;
-}
+
 h5{
     font-size:1.5rem;
 }
@@ -51,11 +49,8 @@ h5{
 #skills-wrapper{
     margin-top:2rem;
 }
-#skills-wrapper p{
-    font-size:2rem;
-}
+
 .btn{
-    font-size:1.5rem;
     background-color:#FFC683 ;
 }
 .contact a{
@@ -73,12 +68,8 @@ h5{
     align-items: center;
     text-align: center;
 }
-.about h2{
-    font-size:2.3rem;
-}
-.card-title, .card-text,.btn{
-    font-size:2rem;
-}
+
+
 
 .subpage{
     margin:auto;
